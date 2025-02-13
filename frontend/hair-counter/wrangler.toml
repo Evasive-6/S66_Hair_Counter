@@ -1,0 +1,15 @@
+name = "your-project-name"
+type = "javascript"
+
+account_id = "your-cloudflare-account-id"
+workers_dev = true
+
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[env.production]
+name = "your-project-name-production"
